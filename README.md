@@ -2,9 +2,9 @@
 
 ### TODO
 
-* jest unit tests (ci)
 * cypress integration tests (ci)
 * state management?
+* renovate?
 
 ### Features
 
@@ -20,3 +20,9 @@ https://nextjs.org/docs
 * Basic linting support with custom rules specified in .eslintrc :white_check_mark:
 * Pre-commit linting with husky :white_check_mark:
 * Extend from common libs :construction:
+
+#### Unit Tests
+
+* junit + testing library component unit tests :white_check_mark:
+* Pre-push tests with husky :white_check_mark:
+* Run in pipeline :construction:
