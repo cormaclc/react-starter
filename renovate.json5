@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  // bump the version in the package file being updated
+  "bumpVersion": "patch",
+  packageRules: [
+    // by default package updates should not create PRs
+    {
+      matchPackagePatterns: ['*'],
+      dependencyDashboardApproval: true
+    },
+    // minor and patch versions with automatically create PRs
+    {
+      matchPackagePatterns: ['*'],
+      matchUpdateTypes: ["minor", "patch"],
+      dependencyDashboardApproval: false
+    },
+    // don't open PRs for npm or node upgrades
+    {
+      matchPackageNames: ["npm", "node", "@types/node"],
+      dependencyDashboardApproval: true
+    }
+  ]
+}
