@@ -26,3 +26,9 @@ https://nextjs.org/docs
 * junit + testing library component unit tests :white_check_mark:
 * Pre-push tests with husky :white_check_mark:
 * Run in pipeline :construction:
+
+#### Renovate
+
+* Configured :white_check_mark:
+  * dependency dashboard all updates 
+  * open PRs for minor/patch updates (except node/npm)
