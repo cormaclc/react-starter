@@ -4,7 +4,6 @@
 
 * jest unit tests (ci)
 * cypress integration tests (ci)
-* linting
 * state management?
 
 ### Features
@@ -15,3 +14,8 @@ https://nextjs.org/docs
 
 * Basic single page app :white_check_mark:
 * Routing :construction:
+
+#### Linting
+
+* Basic linting support with custom rules specified in .eslintrc :white_check_mark:
+* Extend from common libs :construction:
