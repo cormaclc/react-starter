@@ -18,4 +18,5 @@ https://nextjs.org/docs
 #### Linting
 
 * Basic linting support with custom rules specified in .eslintrc :white_check_mark:
+* Pre-commit linting with husky :white_check_mark:
 * Extend from common libs :construction:
