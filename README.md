@@ -4,7 +4,6 @@
 
 * cypress integration tests (ci)
 * state management?
-* renovate?
 
 ### Features
 
