@@ -5,22 +5,24 @@
   ],
   // bump the version in the package file being updated
   "bumpVersion": "patch",
-  packageRules: [
+  "packageRules": [
     // by default package updates should not create PRs
     {
-      matchPackagePatterns: ['*'],
-      dependencyDashboardApproval: true
+      "matchPackagePatterns": ['*'],
+      "dependencyDashboardApproval": true
     },
     // minor and patch versions with automatically create PRs
     {
-      matchPackagePatterns: ['*'],
-      matchUpdateTypes: ["minor", "patch"],
-      dependencyDashboardApproval: false
+      "matchPackagePatterns": ['*'],
+      "matchUpdateTypes": ["minor", "patch"],
+      "dependencyDashboardApproval": false,
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
     },
     // don't open PRs for npm or node upgrades
     {
-      matchPackageNames: ["npm", "node", "@types/node"],
-      dependencyDashboardApproval: true
+      "matchPackageNames": ["npm", "node", "@types/node"],
+      "dependencyDashboardApproval": true
     }
   ]
 }
