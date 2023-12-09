@@ -24,7 +24,7 @@ https://nextjs.org/docs
 
 * junit + testing library component unit tests :white_check_mark:
 * Pre-push tests with husky :white_check_mark:
-* Run in pipeline :construction:
+* Run as required pull-request check :white_check_mark:
 
 #### Renovate
 
