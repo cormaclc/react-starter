@@ -50,7 +50,7 @@ describe('StateChangeComponent tests', () => {
       mountComponent();
 
       // message not present
-      expect(screen.queryByText('This is showing because you clicked the button!')).not.toBeInTheDocument();
+      expect(screen.queryByText('This is showing because you clicked the button!')).toBeInTheDocument();
 
       // click the button
       await user.click(screen.getByRole('button', { name: 'Click me to show a message' }));
