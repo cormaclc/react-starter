@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "rangeStrategy": "bump", // ensure the version in package.json gets bumped (e.g. ^1.0.0 -> ^1.1.0)
   "extends": [
     "config:base"
   ],
