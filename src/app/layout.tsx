@@ -1,5 +1,6 @@
 import React from 'react';
 
+// https://nextjs.org/docs/app/getting-started/layouts-and-pages#creating-a-layout
 export default function RootLayout({
   children,
 }: {
