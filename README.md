@@ -5,6 +5,12 @@
 * cypress integration tests (ci)
 * state management?
 
+### Scripts
+
+* Run locally: `npm run dev`
+* Linting: `npm run lint`
+* Testing: `npm run test`
+
 ### Features
 
 #### NextJS App
